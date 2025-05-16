@@ -1,0 +1,22 @@
+{
+    "title": "ObjetivoCapDEAD",
+    "description": "Apresenta texto de objetivos do capitulo do livro",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 0,
+    "runnable": 1,
+    "author": "Luiz Gustavo OR",
+    "license": "cc-by-sa",
+    "machineName": "H5P.ObjetivoCapDEAD",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "ObjetivoCapDEAD.js" }
+    ],
+    "preloadedCss": [
+      { "path": "ObjetivoCapDEAD.css" }
+    ]
+  }
+  

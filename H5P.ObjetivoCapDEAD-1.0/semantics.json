@@ -1,0 +1,40 @@
+[
+    {
+        "label": "Tipo de box",
+        "name": "conteudotexto",
+        "type": "text",
+        "widget": "html",
+        "default": "Hello world!",
+        "tags": [
+            "strong",
+            "em",
+            "sub"
+        ],
+        "font": {
+            "size": true,
+            "family": true,
+            "color": true,
+            "background": true
+        }
+    },
+    {
+        "label": "Card image",
+        "name": "image",
+        "type": "image",
+        "optional": true,
+        "description": "Adiciona uma imagem dentro do card caso seja necessário..."
+    },
+    {
+        "name": "type",
+        "type": "select",
+        "label": "Escolha a sessão que deseja montar",
+        "options": [
+            {
+                "value": "aprender",
+                "label": "Aprender",
+                "character_path": ""
+            }
+        ],
+        "default": "aprender"
+    }
+]

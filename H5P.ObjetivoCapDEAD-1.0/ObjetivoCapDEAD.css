@@ -1,0 +1,81 @@
+.text-container {
+    background-color: #D6F6FF;    
+    position: relative;
+    border-radius: 20px;
+    z-index: 0;
+    overflow: visible;
+    margin: 60px;
+    padding: 1.7rem 1.7rem 1.5rem 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text-container .badge-container {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    top: -25px;
+    left: -5px;
+    background-color: white;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 5px 8px;
+    
+}
+
+.text-container .badge-container::after {
+    content: '';
+    width: 10px;
+    height: 47px;
+    display: inline-block;
+    background: #2ca1c2;
+    margin-right: -6px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.text-container .badge-container::before {
+    content: '';
+    width: 10px;
+    height: 47px;
+    display: inline-block;
+    background: #2ca1c2;
+    margin-left: -6px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.text-container .badge-container p {
+    margin-top: 6px;
+    right: -50px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2ca1c2;
+}
+
+.text-container .badge-container .text-icon-container {
+    width: 40px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container .badge-container .text-icon-container .cls-1 {
+    fill: #3c90a7;
+}
+
+.text-container .badge-container .text-icon-container .cls-2 {
+    fill: white;
+}
+
+
+.text-card-content {
+  
+    font-size: 16px;
+    font-family: "Sarabun", sans-serif;
+    
+}
