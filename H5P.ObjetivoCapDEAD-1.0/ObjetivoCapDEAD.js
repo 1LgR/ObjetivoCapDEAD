@@ -35,7 +35,7 @@ H5P.ObjetivoCapDEAD = (function ($) {
 
 
     const title = document.createElement("p");
-    title.innerHTML = "Objetivo do Capítulo"; // Título do card
+    title.innerHTML = "Objetivo do capítulo"; // Título do card
 
     // Conteúdo do card
     const textContent = document.createElement("p");
